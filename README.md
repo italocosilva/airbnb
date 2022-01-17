@@ -12,30 +12,40 @@
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+It was used Python 3 from Anaconda distribution.
+
+Libraries needed:
+1. numpy
+2. pandas
+3. matplotlib
+4. seaborn
+5. sklearn
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
+For this project, I used the Boston Airbnb dataset from Kaggle.
 
-1. How other developers suggested breaking into the field (what education to pursue)?
-2. What factors about an individual contributed to salary?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
+This dataset describes the Boston, MA listing activity of homestays. It also includes a calendar of the next one year of available houses for rent (from september 2016 to september 2017).
 
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
+Using this dataset I was looking for answers to these questions:
+
+1. What is the average price per neighbourhood?
+2. What is the busiest epoch of the year?
+3. Can we predict house's price based on prior data?
+
+You can find the full dataset and files directly from Kaggle: https://www.kaggle.com/airbnb/boston
 
 ## File Descriptions <a name="files"></a>
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
+The main file is a Jupyter Notebook: airbnb-boston.ipynb. Here you can find all the code and analysis I had run and results I have colected.
 
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+Furthermore you will find some other files that includes: Airbnb logo, data-wrangling (Excel file used to filter columns used for my model) and README (this file).
 
 ## Results<a name="results"></a>
 
+WORK IN PROGRESS!!!!
 The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
+Must give credit to Airbnb for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/boston).  Otherwise, feel free to use the code here as you would like! 
