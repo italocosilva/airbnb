@@ -43,8 +43,7 @@ Furthermore you will find some other files that includes: Airbnb logo, data-wran
 
 ## Results<a name="results"></a>
 
-WORK IN PROGRESS!!!!
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings of the code can be found at the post available [here](https://medium.com/@italocosilva/this-is-why-you-should-avoid-visiting-boston-in-april-24d1589cc1bc).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
